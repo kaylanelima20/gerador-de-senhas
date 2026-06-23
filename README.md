@@ -14,7 +14,7 @@
 
 ## Aprendizados
 - math.random()
-- manipulaçaõ de elementos
+- manipulação de elementos
 - laços de repetição
 
 ## Autor
