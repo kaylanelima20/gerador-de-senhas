@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Gerador de Senhas aleatórias</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <h1> Gerador de Senhas</h1>
+
+    <label>Tamanho da senha:</label>
+    <input type="number" id="length" value="8">
+
+    <br><br>
+
+    <label>
+        <input type="checkbox" id="uppercase">
+        Maiúsculas
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" id="lowercase" checked>
+        Minúsculas
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" id="numbers">
+        Números
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" id="symbols">
+        Símbolos
+    </label>
+
+    <br><br>
+
+    <button onclick="generatePassword()">
+        Gerar senha
+    </button>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+
+
 </body>
 </html>
