@@ -1,6 +1,23 @@
 # gerador-de-senhas
-gerador de senhas para praticar Javascript
+ simples gerador de senhas para praticar Javascript.
 
-# funcionalidade
-- gerar senhas aletórias e fortes
+## Funcionalidades
+- gerar senhas aletórias
+- escolher caracteres da senha
+- definir o tamanho da senha
+- exibir senha para o usuário
+
+## Tecnologias
+- HTML
+- CSS
+- JavaScript
+
+## Aprendizados
+- math.random()
+- manipulaçaõ de elementos
+- laços de repetição
+
+## Autor
+
+Desenvolvido por Kaylane Lima.
 
