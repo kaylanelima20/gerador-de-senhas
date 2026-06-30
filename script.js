@@ -1,10 +1,10 @@
 function generatePassword(){
     const length = document.getElementById("length").value;
 
-    const uppercase = document.getElementById("uppercase").Checked;
-    const lowercase = document.getElementById("lowercase").Checked;
-    const numbers = document.getElementById("numbers").Checked;
-    const symbols = document.getElementById("symbols").Checked;
+    const uppercase = document.getElementById("uppercase").checked;
+    const lowercase = document.getElementById("lowercase").checked;
+    const numbers = document.getElementById("numbers").checked;
+    const symbols = document.getElementById("symbols").checked;
 
     let chars = "";
 
