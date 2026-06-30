@@ -3,3 +3,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #121212;
 }
+
+.container {
+    with: 380px;
+    margin: 60px auto;
+}
