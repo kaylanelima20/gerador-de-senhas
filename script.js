@@ -23,4 +23,9 @@ function generatePassword(){
     if (symbols){
         chars += "!@#$%&*()";
     }
+
+    if (chars === ""){
+        alert("Selecione pelo menos uma das opções!");
+        return;
+    }
 }
