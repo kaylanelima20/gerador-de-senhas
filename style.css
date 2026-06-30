@@ -7,4 +7,8 @@ body {
 .container {
     with: 380px;
     margin: 60px auto;
+    background-color: #2A0A4a;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(138, 43, 226, 0.4);
 }
