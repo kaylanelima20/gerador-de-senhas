@@ -6,4 +6,21 @@ function generatePassword(){
     const numbers = document.getElementById("numbers").Checked;
     const symbols = document.getElementById("symbols").Checked;
 
+    let chars = "";
+
+    if (uppercase){
+        chars += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    }
+
+    if (lowercase){
+        chars += "abcdefghijklmnopqrstuvwxyz";
+    }
+
+    if (numbers){
+        chars += "0123456789";
+    }
+
+    if (symbols){
+        chars += "!@#$%&*()";
+    }
 }
