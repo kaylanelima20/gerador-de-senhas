@@ -1,13 +1,13 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #242543;
+    background-color:white;
 }
 
 .container {
     width: 380px;
     margin: 60px auto;
-    background-color: #340b5e;
+    background-color: #3e0e6e;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(138, 43, 226, 0.35);
@@ -29,7 +29,7 @@ input[type="number"]{
     padding: 5px;
     border-radius: 6px;
     border: none;
-    background-color: #26273A;
+    background-color: #4c4e80;
     color: white;
 }
 
@@ -52,7 +52,7 @@ button:hover {
 #result {
       margin-top: 20px;
     padding: 15px;
-    background-color: #26273a;
+    background-color: #4c4e80;
     color: white;
     border-radius: 8px;
     text-align: center;
